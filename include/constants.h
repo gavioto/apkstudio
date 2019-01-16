@@ -11,7 +11,7 @@
 #define COLOR_OUTPUT 0xffffff
 #define COLOR_ERROR 0xfb0a2a
 
-#define EDITOR_EXT_CODER "java|smali|xml|yml"
+#define EDITOR_EXT_CODER "java|smali|xml|yml|txt|md|SF|properties|clj|MF|crt|json"
 #define EDITOR_EXT_VIEWER "gif|jpg|jpeg|png"
 
 #define FILE_PREFERENCES "preferences.ini"
@@ -22,7 +22,7 @@
 #define HIGHLIGHTER_THEME "default.theme"
 #define HIGHLIGHTER_STYLE_WHITESPACES "whitespaces"
 
-#define PREF_DEFAULT_JAVA_HEAP 128
+#define PREF_DEFAULT_JAVA_HEAP 256
 #define PREF_DEFAULT_TAB_STOP_WIDTH 4
 #define PREF_DEFAULT_TEXT_ENCODING "UTF-8"
 
@@ -54,6 +54,7 @@
 #define REGEX_LF "[\\r\\n]"
 #define REGEX_ADB_VERSION "^.*(\\d+)\\.(\\d+)\\.(\\d+)$"
 #define REGEX_APKTOOL_VERSION "^(\\d+)\\.(\\d+)\\.(\\d+)$"
+#define REGEX_UBERAPKTOOL_VERSION "^.*(\\d+)\\.(\\d+)\\.(\\d+)$"
 #define REGEX_JAVA_VERSION "^.*\"(\\d+)\\.(\\d+)\\.(\\d+)_(\\d+)\"$"
 #define REGEX_THEME_STYLE "\\b([a-z]+)\\:\\s*([0-9a-z#]+)\\b"
 #define REGEX_WHITESPACE "\\s+"
@@ -65,10 +66,9 @@
 #define THREADS_MAX 1
 
 #define URL_CONTRIBUTE "https://github.com/vaibhavpandeyvpz/apkstudio"
-#define URL_DOWNLOADS "https://raw.githubusercontent.com/vaibhavpandeyvpz/apkstudio/%1/external/downloads.json"
-#define URL_DOCUMENTATION "http://www.vaibhavpandey.com/apkstudio"
+#define URL_DOCUMENTATION "https://forum.xda-developers.com/showpost.php?p=75831837"
 #define URL_ISSUES "https://github.com/vaibhavpandeyvpz/apkstudio/issues"
-#define URL_THANKS "http://forum.xda-developers.com/showthread.php?t=2493107"
+#define URL_THANKS "https://forum.xda-developers.com/showthread.php?t=3761033"
 
 /**
   * @brief Build flags
